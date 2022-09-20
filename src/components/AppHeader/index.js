@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import HeroSection from "./HeroSection";
 
 function AppHeader() {
@@ -8,24 +10,24 @@ function AppHeader() {
                 <div className="container">
                     <div className="inner">
                         <div className="logo">
-                            <a className="light" href="#"><img src="images/logo/logo.png" alt="" /></a>
-                            <a className="dark" href="#"><img src="images/logo/dark.png" alt="" /></a>
+                            <Link className="light" to="#"><img src="images/logo/logo.png" alt="" /></Link>
+                            <Link className="dark" to="#"><img src="images/logo/dark.png" alt="" /></Link>
                         </div>
                         <div className="menu">
                             <ul className="anchor_nav">
-                                <li className="current"><a href="#home">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#portfolio">Portfolio</a></li>
-                                <li><a href="#service">Service</a></li>
-                                <li><a href="#testimonial">Testimonial</a></li>
-                                <li><a href="#blog">Blog</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li className="current"><Link to="#home">Home</Link></li>
+                                <li><Link to="#about">About</Link></li>
+                                <li><Link to="#portfolio">Portfolio</Link></li>
+                                <li><Link to="#service">Service</Link></li>
+                                <li><Link to="#testimonial">Testimonial</Link></li>
+                                <li><Link to="#blog">Blog</Link></li>
+                                <li><Link to="#contact">Contact</Link></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        <HeroSection />
+            <HeroSection />
         </>
     )
 }
