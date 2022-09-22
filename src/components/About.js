@@ -26,7 +26,7 @@ function AboutSection() {
                             <p>With 20 years experience as a professional graphic designer and web developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
                         </div>
                         <div className="aali_tm_button wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                            <Link href="images/cv/1.jpg" download><span>Download CV <img className="svg" src="images/svg/download.svg" alt="Download CV" /></span></Link>
+                            <Link to="images/cv/1.jpg" download><span>Download CV <img className="svg" src="images/svg/download.svg" alt="Download CV" /></span></Link>
                         </div>
                     </div>
                     <div className="right">

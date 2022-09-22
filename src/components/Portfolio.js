@@ -158,7 +158,7 @@ function PortfolioSection() {
                                         <span>Image</span>
                                         <h3>Mockup Camera</h3>
                                     </div>
-                                    <Link className="aali_tm_full_link zoom" to="img/portfolio/5.jpg"></Link>
+                                    <Link className="aali_tm_full_link zoom" to="images/portfolio/5.jpg"></Link>
                                 </div>
                             </li>
                             <li className="detail">
